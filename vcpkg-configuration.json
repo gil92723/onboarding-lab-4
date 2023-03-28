@@ -3,5 +3,15 @@
     "kind": "git",
     "baseline": "0ba60bfef5dea4cb2599daa7ad8364e309835a68",
     "repository": "https://github.com/microsoft/vcpkg.git"
-  }
+  },
+  "registries": [
+    {
+      "kind": "git",
+      "baseline": "",
+      "repository": "https://github.com/NYU-Processor-Design/nyu-registry.git",
+      "packages": [
+        "nyu-*"
+      ]
+    }
+  ]
 }
